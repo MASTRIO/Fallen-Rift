@@ -4,11 +4,14 @@ license="Academic Free License v3.0"
 
 [[mods]]
 modId="fallen_rift"
-version="1.0.0"
+version="0.1.0"
 displayName="Fallen Rift"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
 authors="hclark7, MCreator"
+description='''
+A Minecraft Mod made to make Minecraft a whole lot more adventurous, as well as add in stuff from Minecraft Dungeons
+'''
 
 [[dependencies.fallen_rift]]
     modId="minecraft"

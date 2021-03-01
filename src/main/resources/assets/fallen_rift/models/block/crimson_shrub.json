@@ -1,0 +1,8 @@
+{
+  "parent": "fallen_rift:custom/crimson_shrub",
+  "textures": {
+    "all": "fallen_rift:blocks/crimson_stem",
+    "particle": "fallen_rift:blocks/crimson_stem",
+    "0": "fallen_rift:blocks/crimson_stem"
+  }
+}

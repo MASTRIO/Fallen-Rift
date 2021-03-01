@@ -1,0 +1,42 @@
+{
+  "group": "fallen_rift",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "fallen_rift:gear"
+    },
+    "1": {
+      "item": "fallen_rift:gear"
+    },
+    "2": {
+      "item": "fallen_rift:gear"
+    },
+    "3": {
+      "item": "fallen_rift:gear"
+    },
+    "4": {
+      "item": "minecraft:polished_diorite"
+    },
+    "5": {
+      "item": "fallen_rift:gear"
+    },
+    "6": {
+      "item": "fallen_rift:gear"
+    },
+    "7": {
+      "item": "fallen_rift:gear"
+    },
+    "8": {
+      "item": "fallen_rift:gear"
+    }
+  },
+  "result": {
+    "item": "fallen_rift:gear_box",
+    "count": 1
+  }
+}

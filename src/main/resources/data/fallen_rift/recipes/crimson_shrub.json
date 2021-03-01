@@ -1,0 +1,16 @@
+{
+  "group": "fallen_rift",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:weeping_vines"
+    },
+    {
+      "item": "minecraft:crimson_fungus"
+    }
+  ],
+  "result": {
+    "item": "fallen_rift:crimson_shrub",
+    "count": 1
+  }
+}

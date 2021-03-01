@@ -1,15 +1,191 @@
 {
   "id_map": {},
-  "mod_elements": [],
-  "variable_elements": [],
+  "mod_elements": [
+    {
+      "name": "CreativeTab",
+      "type": "tab",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "creative_tab"
+    },
+    {
+      "name": "Logo",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "logo"
+    },
+    {
+      "name": "Gear",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gear"
+    },
+    {
+      "name": "GearBox",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gear_box"
+    },
+    {
+      "name": "Gearboxrecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gearboxrecipe"
+    },
+    {
+      "name": "Gearrecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gearrecipe"
+    },
+    {
+      "name": "GearKnife",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gear_knife"
+    },
+    {
+      "name": "GearKnifeRightClickedInAir",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gear_knife_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrimsonShrub",
+      "type": "plant",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crimson_shrub"
+    },
+    {
+      "name": "DeveloperNotes",
+      "type": "code",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "developer_notes"
+    },
+    {
+      "name": "FinishRunningDungeon",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "finish_running_dungeon",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FallenRift",
+      "type": "dimension",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fallen_rift",
+      "metadata": {
+        "ep": false
+      }
+    },
+    {
+      "name": "CrimsonShrubRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crimson_shrub_recipe"
+    },
+    {
+      "name": "FallenRiftHub",
+      "type": "dimension",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fallen_rift_hub",
+      "metadata": {
+        "ep": false
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "dungeonsRun",
+      "type": "number",
+      "scope": "world",
+      "value": "0.0"
+    },
+    {
+      "name": "currentDungeonCompleted",
+      "type": "logic",
+      "scope": "world",
+      "value": "false"
+    }
+  ],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.fallen_rift.gear_knife": "Gear Knife",
+      "block.fallen_rift.crimson_shrub": "Crimson Shrub",
+      "item.fallen_rift.logo": "Logo",
+      "item.fallen_rift.fallen_rift": "Fallen Rift Portal Igniter",
+      "item.fallen_rift.gear": "Gear",
+      "item.fallen_rift.gear_box": "Gear Box",
+      "item.fallen_rift.fallen_rift_hub": "Fallen Rift Warp Stone",
+      "itemGroup.tabcreative_tab": "Fallen Rift"
+    }
   },
   "workspaceSettings": {
     "modid": "fallen_rift",
     "modName": "Fallen Rift",
-    "version": "1.0.0",
+    "version": "0.1.0",
+    "description": "A Minecraft Mod made to make Minecraft a whole lot more adventurous, as well as add in stuff from Minecraft Dungeons",
     "author": "hclark7, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
@@ -20,6 +196,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.16.4",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.fallenrift",
     "lockBaseModFiles": false
   },

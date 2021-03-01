@@ -1,0 +1,11 @@
+{
+  "_fv": 15,
+  "_type": "tab",
+  "definition": {
+    "name": "Fallen Rift",
+    "icon": {
+      "value": "CUSTOM:Logo"
+    },
+    "showSearch": false
+  }
+}

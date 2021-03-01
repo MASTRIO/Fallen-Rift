@@ -1,0 +1,7 @@
+{
+  "_fv": 15,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" deletable=\"false\" x=\"61\" y=\"8\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"console_log\"><field name=\"message_type\">info</field><value name=\"message\"><block type=\"text\"><field name=\"TEXT\">Fallen Rift dungeon completed</field></block></value><next><block type=\"variables_set_number\"><field name=\"VAR\">global:dungeonsRun</field><value name=\"VAL\"><block type=\"math_dual_ops\"><field name=\"OP\">ADD</field><value name=\"A\"><block type=\"variables_get_number\"><field name=\"VAR\">global:dungeonsRun</field></block></value><value name=\"B\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value></block></value></block></next></block></next></block></xml>"
+  }
+}
