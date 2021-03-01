@@ -1,0 +1,24 @@
+{
+  "group": "fallen_rift",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "fallen_rift:gear"
+    },
+    "1": {
+      "item": "fallen_rift:gear_box"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "fallen_rift:gear_knife",
+    "count": 1
+  }
+}

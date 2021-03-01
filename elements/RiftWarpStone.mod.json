@@ -1,0 +1,38 @@
+{
+  "_fv": 15,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "rift_warp_rune",
+    "customModelName": "Normal",
+    "name": "Rift Warp Stone",
+    "rarity": "RARE",
+    "creativeTab": {
+      "value": "CUSTOM:CreativeTab"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 1,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "Allows you to warp to the Rift Hub"
+    ],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onRightClickedInAir": {
+      "name": "RiftWarpStoneRightClickedInAir"
+    }
+  }
+}

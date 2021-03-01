@@ -1,0 +1,19 @@
+{
+  "_fv": 15,
+  "_type": "particle",
+  "definition": {
+    "texture": "r.png",
+    "animate": false,
+    "frameDuration": 1,
+    "width": 0.2,
+    "height": 0.2,
+    "scale": 1.0,
+    "speedFactor": 1.5,
+    "gravity": -0.9,
+    "maxAge": 7,
+    "maxAgeDiff": 5,
+    "canCollide": true,
+    "alwaysShow": false,
+    "renderType": "LIT"
+  }
+}

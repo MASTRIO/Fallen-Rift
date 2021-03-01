@@ -49,6 +49,7 @@ public class FallenRiftModVariables {
 		public static final String DATA_NAME = "fallen_rift_worldvars";
 		public double dungeonsRun = 0.0;
 		public boolean currentDungeonCompleted = false;
+		public boolean isRiftOpen = false;
 		public WorldVariables() {
 			super(DATA_NAME);
 		}
@@ -61,12 +62,14 @@ public class FallenRiftModVariables {
 		public void read(CompoundNBT nbt) {
 			dungeonsRun = nbt.getDouble("dungeonsRun");
 			currentDungeonCompleted = nbt.getBoolean("currentDungeonCompleted");
+			isRiftOpen = nbt.getBoolean("isRiftOpen");
 		}
 
 		@Override
 		public CompoundNBT write(CompoundNBT nbt) {
 			nbt.putDouble("dungeonsRun", dungeonsRun);
 			nbt.putBoolean("currentDungeonCompleted", currentDungeonCompleted);
+			nbt.putBoolean("isRiftOpen", isRiftOpen);
 			return nbt;
 		}
 

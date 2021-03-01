@@ -54,7 +54,7 @@ public class GearKnifeItem extends FallenRiftModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(GearItem.block, (int) (1)));
 			}
-		}, 3, -3.7f, new Item.Properties().group(CreativeTabItemGroup.tab)) {
+		}, 3, -1.5f, new Item.Properties().group(CreativeTabItemGroup.tab)) {
 			@Override
 			public ActionResult<ItemStack> onItemRightClick(World world, PlayerEntity entity, Hand hand) {
 				ActionResult<ItemStack> retval = super.onItemRightClick(world, entity, hand);

@@ -1,0 +1,82 @@
+{
+  "_fv": 15,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Rift Warp",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Rift Warp",
+          "x": 132,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Warp To: Hub",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Warp To: Hub",
+          "x": 182,
+          "y": 70
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Warp",
+          "onClick": {
+            "name": "WarpToRiftHub"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "Warp",
+          "x": 189,
+          "y": 87
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Warp to: Fallen Rift",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Warp to: Fallen Rift",
+          "x": 164,
+          "y": 125
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Warp",
+          "onClick": {
+            "name": "WarpToFallenRift"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "Warp",
+          "x": 188,
+          "y": 144
+        }
+      }
+    ]
+  }
+}

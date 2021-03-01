@@ -1,50 +1,98 @@
 {
   "_fv": 15,
-  "_type": "plant",
+  "_type": "block",
   "definition": {
-    "renderType": 2,
     "texture": "crimson_stem",
-    "textureBottom": "",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 2,
     "customModelName": "crimson_shrub:default",
+    "rotationMode": 0,
+    "emissiveRendering": true,
+    "displayFluidOverlay": false,
     "itemTexture": "crimson_shrub",
     "particleTexture": "",
     "tintType": "No tint",
-    "isItemTinted": false,
-    "plantType": "normal",
-    "staticPlantGenerationType": "Flower",
-    "growapableSpawnType": "Nether",
-    "growapableMaxHeight": 3,
-    "doublePlantGenerationType": "Flower",
+    "isItemTinted": true,
+    "hasTransparency": true,
+    "connectedSides": false,
+    "transparencyType": "CUTOUT",
+    "mx": 0.5,
+    "my": 0.0,
+    "mz": 0.5,
+    "Mx": 0.5,
+    "My": 0.7,
+    "Mz": 0.5,
     "name": "Crimson Shrub",
     "specialInfo": [],
+    "hardness": 0.0,
+    "resistance": 2.5,
+    "hasGravity": false,
+    "isWaterloggable": false,
     "creativeTab": {
       "value": "CUSTOM:CreativeTab"
     },
-    "hardness": 0.0,
-    "resistance": 2.0,
-    "luminance": 3,
-    "unbreakable": false,
-    "soundOnStep": {
-      "value": "PLANT"
-    },
-    "useLootTableForDrops": false,
+    "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
     },
     "dropAmount": 1,
-    "forceTicking": false,
-    "emissiveRendering": true,
-    "hasTileEntity": false,
+    "useLootTableForDrops": false,
+    "enchantPowerBonus": 0.0,
+    "plantsGrowOn": false,
+    "canProvidePower": false,
+    "lightOpacity": 0,
+    "material": {
+      "value": "PLANTS"
+    },
+    "tickRate": 10,
+    "tickRandomly": false,
     "isReplaceable": false,
-    "colorOnMap": "TNT",
+    "colorOnMap": "AIR",
     "creativePickItem": {
       "value": ""
     },
     "offsetType": "XZ",
-    "aiPathNodeType": "DEFAULT",
-    "flammability": 47,
+    "aiPathNodeType": "OPEN",
+    "flammability": 0,
     "fireSpreadSpeed": 0,
-    "frequencyOnChunks": 16,
+    "isLadder": false,
+    "slipperiness": 0.6,
+    "reactionToPushing": "DESTROY",
+    "isNotColidable": true,
+    "soundOnStep": {
+      "value": "PLANT"
+    },
+    "luminance": 6,
+    "unbreakable": false,
+    "breakHarvestLevel": 1,
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "CUSTOM:CrimsonShrubBling"
+    },
+    "particleSpawningShape": "Top",
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 7,
+    "hasInventory": false,
+    "guiBoundTo": "<NONE>",
+    "openGUIOnRightClick": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": true,
+    "inventoryOutSlotIDs": [],
+    "inventoryInSlotIDs": [],
+    "hasEnergyStorage": false,
+    "energyInitial": 0,
+    "energyCapacity": 400000,
+    "energyMaxReceive": 200,
+    "energyMaxExtract": 200,
+    "isFluidTank": false,
+    "fluidCapacity": 8000,
+    "fluidRestrictions": [],
     "spawnWorldTypes": [
       "Nether"
     ],
@@ -52,6 +100,15 @@
       {
         "value": "crimson_forest"
       }
-    ]
+    ],
+    "blocksToReplace": [
+      {
+        "value": "Blocks.CRIMSON_ROOTS"
+      }
+    ],
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 3,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 256
   }
 }
